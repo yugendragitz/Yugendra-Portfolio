@@ -45,12 +45,12 @@ const Projects = () => {
     },
     {
       title: 'Portfolio Dashboard',
-      description: 'Personal dashboard for tracking projects, skills, and learning progress',
-      longDescription: 'Interactive dashboard with data visualization, project timeline, skill progress tracking, and automated GitHub activity integration. Features dark mode, customizable widgets, and real-time updates.',
-      tech: ['React', 'Node.js', 'Chart.js', 'MongoDB'],
+      description: 'Modern personal portfolio website showcasing projects, skills, and experience',
+      longDescription: 'A sleek and responsive portfolio website built with React and Tailwind CSS. Features smooth animations with Framer Motion, interactive particle background, dark theme design, and optimized performance. Deployed on Vercel for fast global delivery.',
+      tech: ['React', 'Tailwind CSS', 'Framer Motion', 'JavaScript', 'Vercel'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
-      github: 'https://github.com/yugendragitz',
-      live: '#',
+      github: 'https://github.com/yugendragitz/Yugendra-Portfolio',
+      live: 'https://yugendra-portfolio.vercel.app',
       color: 'from-orange-500 to-red-500',
     },
   ];
