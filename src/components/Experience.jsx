@@ -18,7 +18,7 @@ const Experience = () => {
       icon: <HiAcademicCap />,
       color: 'from-blue-500 to-cyan-500',
       achievements: [
-        'CGPA: 8.5+',
+        'CGPA: 9.0+',
         'Active participant in coding competitions',
         'Member of Tech Club',
       ]
