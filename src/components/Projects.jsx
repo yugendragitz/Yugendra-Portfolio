@@ -19,8 +19,8 @@ const Projects = () => {
       longDescription: 'Complete marketplace application with user authentication, product management, shopping cart functionality, and secure payment processing. Features include real-time inventory tracking, order management, and admin dashboard.',
       tech: ['Python', 'Flask', 'PostgreSQL', 'HTML/CSS', 'JavaScript'],
       image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop',
-      github: 'https://github.com/yugendragitz',
-      live: '#',
+      github: 'https://github.com/yugendragitz/Flask-Market-Enterprise',
+      live: 'https://flask-market-enterprise.vercel.app/',
       color: 'from-blue-500 to-cyan-500',
     },
     {
