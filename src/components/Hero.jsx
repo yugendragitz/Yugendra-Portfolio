@@ -88,29 +88,40 @@ const Hero = () => {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 1 }}
+            transition={{ duration: 0.6, delay: 1 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <a href="#projects" className="btn-primary">
+            <motion.a
+              href="#projects"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              className="btn-primary relative z-10"
+            >
               View My Work
-            </a>
-            <a href="#contact" className="btn-outline">
+            </motion.a>
+            <motion.a
+              href="#contact"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              className="btn-outline"
+            >
               Get In Touch
-            </a>
+            </motion.a>
           </motion.div>
         </motion.div>
 
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 1.5 }}
+          transition={{ duration: 0.6, delay: 1.5 }}
           className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
         >
           <motion.a
             href="#about"
-            animate={{ y: [0, 10, 0] }}
-            transition={{ repeat: Infinity, duration: 1.5 }}
-            className="text-4xl text-primary cursor-pointer"
+            animate={{ y: [0, 15, 0] }}
+            transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+            whileHover={{ scale: 1.2 }}
+            className="text-4xl text-primary cursor-pointer block"
           >
             <HiArrowDown />
           </motion.a>
