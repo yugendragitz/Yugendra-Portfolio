@@ -34,8 +34,11 @@ function App() {
         <Contact />
       </main>
       <footer className="bg-dark-light py-8 text-center">
-        <p className="text-gray-400">
-          &copy; 2025 Bokka Yugendra Sai. Crafted with <span className="text-accent">❤</span> using React & Tailwind CSS
+        <p className="text-gray-400 text-lg font-semibold">
+          YUGENDRA PORTFOLIO
+        </p>
+        <p className="text-gray-500 text-sm mt-2">
+          &copy; 2025 Bokka Yugendra Sai
         </p>
       </footer>
     </div>
