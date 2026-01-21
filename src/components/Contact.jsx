@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi';
@@ -10,7 +10,6 @@ const EMAILJS_TEMPLATE_ID = 'template_mgj76yc';
 const EMAILJS_PUBLIC_KEY = '29USohcABTGfC_oUl';
 
 const Contact = () => {
-  const formRef = useRef();
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
