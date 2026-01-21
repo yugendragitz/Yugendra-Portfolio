@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { HiX, HiExternalLink, HiCode } from 'react-icons/hi';
+import { HiX, HiExternalLink } from 'react-icons/hi';
 import { SiGithub } from 'react-icons/si';
 
 const Projects = () => {
@@ -34,14 +34,14 @@ const Projects = () => {
       color: 'from-purple-500 to-pink-500',
     },
     {
-      title: 'Web Client Pages',
-      description: 'Modern, responsive client-facing web pages with advanced UI/UX',
-      longDescription: 'Collection of professionally designed web pages for various clients. Features include smooth animations, responsive design, SEO optimization, and modern UI patterns. Built with React and Tailwind CSS for optimal performance.',
-      tech: ['React', 'Tailwind CSS', 'Framer Motion', 'JavaScript'],
-      image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&h=400&fit=crop',
-      github: 'https://github.com/yugendragitz',
-      live: '#',
-      color: 'from-green-500 to-teal-500',
+      title: 'JARVIS - AI Personal Assistant',
+      description: 'Voice-controlled AI assistant inspired by Iron Man\'s JARVIS with speech recognition',
+      longDescription: 'An intelligent voice-controlled personal assistant built with modern web technologies. Features include real-time speech recognition with wake word detection ("Hey Yugi"), natural language processing for understanding commands, text-to-speech responses with customizable voices, and a stunning futuristic UI with animated visualizers. The assistant can answer questions, perform tasks, and provide information through voice interaction, creating an immersive Iron Man-inspired experience.',
+      tech: ['JavaScript', 'Web Speech API', 'Node.js', 'Express', 'AI/NLP', 'CSS Animations'],
+      image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop',
+      github: 'https://github.com/yugendragitz/JARVIS-V-1.0',
+      live: 'https://jarvis-v-1-0.onrender.com/',
+      color: 'from-cyan-500 to-blue-600',
     },
     {
       title: 'Portfolio Dashboard',
