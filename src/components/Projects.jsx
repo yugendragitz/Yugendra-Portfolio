@@ -53,6 +53,16 @@ const Projects = () => {
       live: 'https://yugendra-portfolio.vercel.app',
       color: 'from-orange-500 to-red-500',
     },
+    {
+      title: 'Habit Tracker',
+      description: 'A productivity app to track daily habits and build better routines',
+      longDescription: 'A user-friendly habit tracking application designed to help users build and maintain positive habits. Features include daily habit logging, progress visualization, streak tracking, and personalized reminders. The app provides insightful analytics to help users understand their habit patterns and stay motivated on their journey to self-improvement.',
+      tech: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Express'],
+      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop',
+      github: 'https://github.com/yugendragitz/habit-tracker',
+      live: 'https://habit-tracker-three-lilac.vercel.app/',
+      color: 'from-green-500 to-teal-500',
+    },
   ];
 
   const containerVariants = {
