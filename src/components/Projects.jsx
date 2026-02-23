@@ -63,6 +63,16 @@ const Projects = () => {
       live: 'https://habit-tracker-three-lilac.vercel.app/',
       color: 'from-green-500 to-teal-500',
     },
+    {
+      title: 'Foodie Hub',
+      description: 'A comprehensive food delivery and restaurant discovery platform',
+      longDescription: 'Foodie Hub is a full-featured food delivery and restaurant discovery application. Users can browse restaurants, view menus, place orders, and track delivery in real-time. The platform includes advanced filtering, ratings and reviews, user authentication, integrated payment gateway, and an admin dashboard for restaurant management. Built with a focus on user experience and performance optimization.',
+      tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS', 'Stripe/Payment API'],
+      image: 'https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=600&h=400&fit=crop',
+      github: 'https://github.com/yugendragitz/foodiehub',
+      live: 'https://foodiehub-azure.vercel.app/',
+      color: 'from-yellow-500 to-orange-500',
+    },
   ];
 
   const containerVariants = {
